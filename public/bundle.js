@@ -37249,13 +37249,13 @@
 	var angular2_jwt_1 = __webpack_require__(92);
 	var DestinationComponent_1 = __webpack_require__(95);
 	var RoutComponent_1 = __webpack_require__(90);
-	var HeaderComponent_1 = __webpack_require__(102);
-	var CarouselComponent_1 = __webpack_require__(105);
-	var SpaceportComponent_1 = __webpack_require__(111);
-	var SeatComponent_1 = __webpack_require__(114);
-	var SummaryComponent_1 = __webpack_require__(123);
-	var FooterComponent_1 = __webpack_require__(129);
-	var RootReducer_1 = __webpack_require__(132);
+	var HeaderComponent_1 = __webpack_require__(103);
+	var CarouselComponent_1 = __webpack_require__(107);
+	var SpaceportComponent_1 = __webpack_require__(113);
+	var SeatComponent_1 = __webpack_require__(116);
+	var SummaryComponent_1 = __webpack_require__(125);
+	var FooterComponent_1 = __webpack_require__(131);
+	var RootReducer_1 = __webpack_require__(134);
 	var AppModule = (function () {
 	    function AppModule() {
 	    }
@@ -41966,7 +41966,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n@font-face {\n  font-family: \"Montserrat-Regular\";\n  src: \"./../assets/font/Montserrat-Regular.ttf\";\n  src: local(\"\\263A\"), url(" + __webpack_require__(36) + ") format(\"woff\"), url(" + __webpack_require__(37) + ") format(\"truetype\"), url(" + __webpack_require__(38) + ") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Montserrat-Bold\";\n  src: \"./../assets/font/Montserrat-Bold.ttf\";\n  src: local(\"\\263A\"), url(" + __webpack_require__(39) + ") format(\"woff\"), url(" + __webpack_require__(40) + ") format(\"truetype\"), url(" + __webpack_require__(41) + ") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"icons\";\n  src: \"./../assets/font/icons.ttf\";\n  src: local(\"\\263A\"), url(" + __webpack_require__(42) + ") format(\"woff\"), url(" + __webpack_require__(43) + ") format(\"truetype\"), url(" + __webpack_require__(44) + ") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n[class^=\"icon-\"], [class*=\" icon-\"] {\n  /* use !important to prevent issues with browser extensions that change fonts */\n  font-family: 'icons' !important;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1;\n  /* Better Font Rendering =========== */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n\n.icon-arrow-left:before {\n  content: \"\\E900\"; }\n\n.icon-arrow-right:before {\n  content: \"\\E901\"; }\n\n.icon-check:before {\n  content: \"\\E902\"; }\n\n.icon-close:before {\n  content: \"\\E903\"; }\n\n.icon-star:before {\n  content: \"\\E904\"; }\n\nul, p,\nh1, h2, h3, h4, h5, h6 {\n  padding: 0;\n  margin: 0; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\n@font-face {\n  font-family: \"Montserrat-Regular\";\n  src: \"./../assets/font/Montserrat-Regular.ttf\";\n  src: local(\"\\263A\"), url(" + __webpack_require__(36) + ") format(\"woff\"), url(" + __webpack_require__(37) + ") format(\"truetype\"), url(" + __webpack_require__(38) + ") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"Montserrat-Bold\";\n  src: \"./../assets/font/Montserrat-Bold.ttf\";\n  src: local(\"\\263A\"), url(" + __webpack_require__(39) + ") format(\"woff\"), url(" + __webpack_require__(40) + ") format(\"truetype\"), url(" + __webpack_require__(41) + ") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: \"icons\";\n  src: \"./../assets/font/icons.ttf\";\n  src: local(\"\\263A\"), url(" + __webpack_require__(42) + ") format(\"woff\"), url(" + __webpack_require__(43) + ") format(\"truetype\"), url(" + __webpack_require__(44) + ") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n[class^=\"icon-\"], [class*=\" icon-\"] {\n  /* use !important to prevent issues with browser extensions that change fonts */\n  font-family: 'icons' !important;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1;\n  /* Better Font Rendering =========== */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n\n.icon-arrow-left:before {\n  content: \"\\E900\"; }\n\n.icon-arrow-right:before {\n  content: \"\\E901\"; }\n\n.icon-check:before {\n  content: \"\\E902\"; }\n\n.icon-close:before {\n  content: \"\\E903\"; }\n\n.icon-star:before {\n  content: \"\\E904\"; }\n\nbody {\n  font-family: 'Montserrat-Regular', Arial, sans-serif; }\n\nul, p, a,\nh1, h2, h3, h4, h5, h6 {\n  padding: 0;\n  margin: 0; }\n", ""]);
 	
 	// exports
 
@@ -51474,9 +51474,9 @@
 	};
 	var core_1 = __webpack_require__(7);
 	__webpack_require__(96);
-	__webpack_require__(99);
 	__webpack_require__(100);
 	__webpack_require__(101);
+	__webpack_require__(102);
 	var DestinationComponent = (function () {
 	    function DestinationComponent() {
 	    }
@@ -51485,7 +51485,7 @@
 	DestinationComponent = __decorate([
 	    core_1.Component({
 	        selector: "ctDestination",
-	        template: "\n  <div class=\"destination\">\n     <h2 class=\"destination__title\">1. Choose destination</h2>\n     <div class=\"destination-wrapper\">\n        <div class=\"destination-list\">\n            <div class=\"destination-item\">\n                <img class=\"destination-item__image\" src=\"public/assets/venus.png\" alt=\"venus destination\"/>\n                <div class=\"trip-title\">\n                  <div class=\"trip-title__text\">venus</div>\n                </div>\n                <span class=\"trip-days\">580 days</span>\n            </div>\n            <div class=\"destination-item is-active\">\n                <img class=\"destination-item__image\" src=\"public/assets/mars.png\" alt=\"mars destination\"/>\n                <div class=\"trip-title\">\n                  <div class=\"trip-title__text\">mars</div>\n                </div>\n                <span class=\"trip-days\">600 days</span>\n            </div>\n            <div class=\"destination-item\">\n                <img class=\"destination-item__image\" src=\"public/assets/europa.png\" alt=\"europa destination\"/>\n                <div class=\"trip-title\">\n                  <div class=\"trip-title__text\">europa</div>\n                </div>\n                <span class=\"trip-days\">1320 days</span>\n            </div>\n        </div>\n    </div>\n</div>\n  "
+	        template: "\n  <div class=\"destination\">\n     <h2 class=\"destination__title\">1. Choose destination</h2>\n     <div class=\"destination-wrapper\">\n        <div class=\"destination-list\">\n            <div class=\"destination-item\">\n                <div class=\"rays\"></div>\n                <img class=\"destination-item__image\" src=\"public/assets/venus.png\" alt=\"venus destination\"/>\n                <div class=\"trip-title\">\n                  <div class=\"trip-title__text\">venus</div>\n                </div>\n                <span class=\"trip-days\">580 days</span>\n            </div>\n            <div class=\"destination-item is-active\">\n                <div class=\"rays\"></div>\n                <img class=\"destination-item__image\" src=\"public/assets/mars.png\" alt=\"mars destination\"/>\n                <div class=\"trip-title\">\n                  <div class=\"trip-title__text\">mars</div>\n                </div>\n                <span class=\"trip-days\">600 days</span>\n            </div>\n            <div class=\"destination-item\">\n                <div class=\"rays\"></div>\n                <img class=\"destination-item__image\" src=\"public/assets/europa.png\" alt=\"europa destination\"/>\n                <div class=\"trip-title\">\n                  <div class=\"trip-title__text\">europa</div>\n                </div>\n                <span class=\"trip-days\">1320 days</span>\n            </div>\n        </div>\n    </div>\n</div>\n  "
 	    }),
 	    __metadata("design:paramtypes", [])
 	], DestinationComponent);
@@ -51528,7 +51528,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".destination {\n  padding: 44px 20px 80px;\n  margin-top: -111px;\n  background: url(" + __webpack_require__(98) + ") #000 no-repeat 0 0;\n  background-size: cover; }\n  .destination__title {\n    margin: 80px 0;\n    font: 24px 'Montserrat-Bold';\n    letter-spacing: 5px;\n    text-align: center;\n    text-transform: uppercase;\n    color: #fff; }\n  .destination-list {\n    display: flex;\n    justify-content: space-around; }\n    .destination-list .destination-item {\n      position: relative;\n      cursor: pointer; }\n      .destination-list .destination-item.is-active {\n        transform: scale(1.2);\n        opacity: .5; }\n        .destination-list .destination-item.is-active .trip-days {\n          padding: 15px 0; }\n      .destination-list .destination-item:not(.is-active) .trip-title:hover {\n        transform: skew(-20deg);\n        border: 4px solid #8800ff; }\n        .destination-list .destination-item:not(.is-active) .trip-title:hover .trip-title__text {\n          transform: skew(20deg); }\n    .destination-list .trip-title {\n      position: absolute;\n      top: calc(50% - 70px);\n      left: 0;\n      right: 0;\n      margin: 0 auto;\n      padding: 5px;\n      width: 142px;\n      border: 4px solid transparent;\n      font: 24px/1em 'Montserrat-Bold';\n      text-align: center;\n      text-transform: uppercase;\n      letter-spacing: 5px;\n      color: #fff; }\n    .destination-list .trip-days {\n      display: block;\n      padding: 40px 0;\n      font: 12px 'Montserrat-Bold';\n      text-align: center;\n      color: #fff; }\n\n@media screen and (max-width: 420px) {\n  .destination {\n    padding: 28px 0; }\n    .destination__title {\n      margin: 60px auto;\n      font-size: 14px;\n      line-height: 2.29;\n      letter-spacing: 2.6px; }\n    .destination-list {\n      display: block;\n      overflow-x: auto;\n      overflow-y: hidden;\n      white-space: nowrap;\n      width: 100%; }\n      .destination-list .trip-title {\n        top: calc(50% - 30px); }\n    .destination-item {\n      display: inline-block;\n      margin: 0 12px;\n      width: 224px;\n      height: 224px;\n      float: none;\n      vertical-align: middle;\n      white-space: normal; }\n      .destination-item__image {\n        max-height: 100%; } }\n", ""]);
+	exports.push([module.id, "@keyframes spin {\n  from {\n    transform: rotate(0deg); }\n  to {\n    transform: rotate(360deg); } }\n\n.destination {\n  padding: 44px 20px 80px;\n  margin-top: -111px;\n  background: url(" + __webpack_require__(98) + ") #000 no-repeat 0 0;\n  background-size: cover; }\n  .destination__title {\n    margin: 80px 0;\n    font: 24px 'Montserrat-Bold';\n    letter-spacing: 5px;\n    text-align: center;\n    text-transform: uppercase;\n    color: #fff; }\n  .destination-list {\n    display: flex;\n    justify-content: space-around; }\n    .destination-list .trip-title {\n      position: absolute;\n      top: calc(50% - 70px);\n      left: 0;\n      right: 0;\n      margin: 0 auto;\n      padding: 5px;\n      width: 142px;\n      border: 4px solid transparent;\n      font: 24px/1em 'Montserrat-Bold';\n      text-align: center;\n      text-transform: uppercase;\n      letter-spacing: 5px;\n      color: #fff; }\n    .destination-list .trip-days {\n      display: block;\n      padding: 40px 0;\n      font: 12px 'Montserrat-Bold';\n      text-align: center;\n      color: #fff; }\n  .destination-item {\n    position: relative;\n    cursor: pointer; }\n    .destination-item.is-active .rays {\n      position: absolute;\n      width: 287px;\n      height: 287px;\n      background: url(" + __webpack_require__(99) + ") center center no-repeat;\n      opacity: .3;\n      border-radius: 50%;\n      animation-name: spin;\n      animation-duration: 40000ms;\n      animation-iteration-count: infinite;\n      animation-timing-function: linear; }\n    .destination-item:not(.is-active) .trip-title:hover {\n      transform: skew(-20deg);\n      border: 4px solid #8800ff; }\n      .destination-item:not(.is-active) .trip-title:hover .trip-title__text {\n        transform: skew(20deg); }\n\n@media screen and (max-width: 768px) {\n  .destination {\n    padding: 28px 0; }\n    .destination__title {\n      margin: 60px auto;\n      font-size: 14px;\n      line-height: 2.29;\n      letter-spacing: 2.6px; }\n    .destination-list {\n      display: block;\n      overflow-x: auto;\n      overflow-y: hidden;\n      white-space: nowrap;\n      width: 100%; }\n      .destination-list .trip-title {\n        top: calc(50% - 30px); }\n    .destination-item {\n      display: inline-block;\n      margin: 0 12px;\n      width: 224px;\n      height: 224px;\n      float: none;\n      vertical-align: middle;\n      white-space: normal; }\n      .destination-item.is-active .rays {\n        width: 224px;\n        height: 224px; }\n      .destination-item__image {\n        max-height: 100%; } }\n", ""]);
 	
 	// exports
 
@@ -51543,22 +51543,28 @@
 /* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "/assets/mars.png";
+	module.exports = __webpack_require__.p + "/assets/spin.png";
 
 /***/ },
 /* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "/assets/venus.png";
+	module.exports = __webpack_require__.p + "/assets/mars.png";
 
 /***/ },
 /* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "/assets/europa.png";
+	module.exports = __webpack_require__.p + "/assets/venus.png";
 
 /***/ },
 /* 102 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "/assets/europa.png";
+
+/***/ },
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -51572,7 +51578,7 @@
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(7);
-	__webpack_require__(103);
+	__webpack_require__(104);
 	var HeaderComponent = (function () {
 	    function HeaderComponent() {
 	    }
@@ -51590,13 +51596,13 @@
 
 
 /***/ },
-/* 103 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!./../../../node_modules/css-loader/index.js?sourceMap?root=.!./../../../node_modules/sass-loader/index.js?sourceMap!./header.scss\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var content = __webpack_require__(105);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {"sourceMap":true});
@@ -51616,8 +51622,27 @@
 	}
 
 /***/ },
-/* 104 */,
 /* 105 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(35)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".logo {\n  position: absolute;\n  top: 0;\n  left: 20px;\n  width: 210px;\n  height: 24px;\n  background: url(" + __webpack_require__(106) + ") no-repeat center center;\n  background-size: contain; }\n\n.nav-menu {\n  margin: 44px auto;\n  text-align: center; }\n  .nav-menu-item {\n    display: inline-block; }\n  .nav-menu__link, .nav-menu__link:focus {\n    position: relative;\n    padding: 6px 10px;\n    font-size: 12px;\n    line-height: 2;\n    letter-spacing: 0.9px;\n    text-decoration: none;\n    text-transform: uppercase;\n    outline: none;\n    color: #fff; }\n    .nav-menu__link:hover, .nav-menu__link:focus:hover {\n      background-color: #8800ff;\n      text-decoration: none;\n      color: #fff; }\n      .nav-menu__link:hover:before, .nav-menu__link:focus:hover:before {\n        content: '';\n        position: absolute;\n        left: -8px;\n        border-bottom: 25px solid #8800ff;\n        border-left: 9px solid transparent; }\n      .nav-menu__link:hover:after, .nav-menu__link:focus:hover:after {\n        content: '';\n        position: absolute;\n        top: 0;\n        right: -8px;\n        border-top: 25px solid #8800ff;\n        border-right: 9px solid transparent; }\n\n@media screen and (max-width: 768px) {\n  .logo {\n    display: none; } }\n", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 106 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "/assets/c-t-homepage-i-s.png";
+
+/***/ },
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -51631,10 +51656,10 @@
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(7);
-	__webpack_require__(106);
 	__webpack_require__(108);
-	__webpack_require__(109);
 	__webpack_require__(110);
+	__webpack_require__(111);
+	__webpack_require__(112);
 	var CarouselComponent = (function () {
 	    function CarouselComponent() {
 	        this.slideValue = -17;
@@ -51646,10 +51671,16 @@
 	        if (this.slideValue >= -35) {
 	            this.slideValue = this.slideValue - 18;
 	        }
+	        else {
+	            this.slideValue = -17;
+	        }
 	    };
 	    CarouselComponent.prototype.leftSliding = function (event) {
 	        if (this.slideValue <= -35) {
 	            this.slideValue = this.slideValue + 18;
+	        }
+	        else {
+	            this.slideValue = -17;
 	        }
 	    };
 	    return CarouselComponent;
@@ -51666,13 +51697,13 @@
 
 
 /***/ },
-/* 106 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(107);
+	var content = __webpack_require__(109);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {"sourceMap":true});
@@ -51692,7 +51723,7 @@
 	}
 
 /***/ },
-/* 107 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(35)();
@@ -51700,31 +51731,31 @@
 	
 	
 	// module
-	exports.push([module.id, ".carousel {\n  position: relative;\n  background-color: #2d2b2e; }\n  .carousel-overflow-wrapper {\n    width: 100%;\n    overflow: hidden; }\n  .carousel-container {\n    border: 1px solid;\n    width: 500%;\n    overflow: scroll;\n    transform: translateX(-17%);\n    transition: 1s ease-in-out; }\n  .carousel-controls {\n    color: #fff;\n    font-size: 2.3em;\n    cursor: pointer; }\n    .carousel-controls__left {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 5%;\n      height: 100%;\n      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)); }\n      .carousel-controls__left .icon {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        margin: -1.1em 0 0 -0.4em; }\n    .carousel-controls__right {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 5%;\n      height: 100%;\n      background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));\n      right: 0;\n      left: auto; }\n      .carousel-controls__right .icon {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        margin: -1.1em 0 0 -0.4em; }\n  .carousel-image-container {\n    display: inline-block;\n    width: 18%;\n    float: left; }\n    .carousel-image-container__image {\n      width: 100%; }\n\n@media screen and (max-width: 420px) {\n  .carousel .icon {\n    display: none; } }\n", ""]);
+	exports.push([module.id, ".carousel {\n  position: relative;\n  background-color: #2d2b2e; }\n  .carousel-overflow-wrapper {\n    width: 100%;\n    overflow: hidden; }\n  .carousel-container {\n    border: 1px solid;\n    width: 500%;\n    overflow: scroll;\n    transform: translateX(-17%);\n    transition: 1s ease-in-out; }\n  .carousel-controls {\n    color: #fff;\n    font-size: 2.3em;\n    cursor: pointer; }\n    .carousel-controls__left {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 5%;\n      height: 100%;\n      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)); }\n      .carousel-controls__left .icon {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        margin: -1.1em 0 0 -0.4em; }\n    .carousel-controls__right {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 5%;\n      height: 100%;\n      background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));\n      right: 0;\n      left: auto; }\n      .carousel-controls__right .icon {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        margin: -1.1em 0 0 -0.4em; }\n  .carousel-image-container {\n    display: inline-block;\n    width: 18%;\n    float: left; }\n    .carousel-image-container__image {\n      width: 100%; }\n\n@media screen and (max-width: 768px) {\n  .carousel .icon {\n    display: none; } }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 108 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/img1.png";
 
 /***/ },
-/* 109 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/img2.png";
 
 /***/ },
-/* 110 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/img3.png";
 
 /***/ },
-/* 111 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -51738,7 +51769,7 @@
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(7);
-	__webpack_require__(112);
+	__webpack_require__(114);
 	var SpaceportComponent = (function () {
 	    function SpaceportComponent() {
 	    }
@@ -51756,13 +51787,13 @@
 
 
 /***/ },
-/* 112 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(113);
+	var content = __webpack_require__(115);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {"sourceMap":true});
@@ -51782,7 +51813,7 @@
 	}
 
 /***/ },
-/* 113 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(35)();
@@ -51790,13 +51821,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".spaceport {\n  padding: 80px;\n  background-color: #2d2b2e; }\n  .spaceport__title {\n    margin: 80px 0 40px 0;\n    font: 24px 'Montserrat-Bold';\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: 5px;\n    color: #fff; }\n  .spaceport-list {\n    display: flex;\n    justify-content: space-around;\n    list-style: none; }\n  .spaceport-item {\n    position: relative;\n    padding: 30px;\n    width: 312px;\n    height: 328px;\n    border: 4px solid #000;\n    cursor: pointer; }\n    .spaceport-item__title, .spaceport-item__date {\n      margin: 0 0 13px 0;\n      font: 24px 'Montserrat-Bold';\n      text-align: center;\n      text-transform: uppercase;\n      letter-spacing: 5px;\n      color: #fff; }\n    .spaceport-item__departure {\n      margin-bottom: 55px;\n      font: 12px 'Montserrat-Regular';\n      text-align: center;\n      text-transform: capitalize;\n      color: rgba(255, 255, 255, 0.3); }\n    .spaceport-item-fly-info {\n      position: absolute;\n      left: 0;\n      right: 0;\n      bottom: 0; }\n    .spaceport-item__info {\n      margin-bottom: 44px;\n      font: 12px 'Montserrat-Regular';\n      text-align: center;\n      text-transform: capitalize;\n      color: rgba(255, 255, 255, 0.3); }\n    .spaceport-item.is-active {\n      background: #fff;\n      border: 4px solid transparent;\n      border-radius: 5px;\n      box-shadow: 0 8px 34px black; }\n      .spaceport-item.is-active .spaceport-item__title,\n      .spaceport-item.is-active .spaceport-item__date {\n        color: #302b33; }\n      .spaceport-item.is-active .spaceport-item__info {\n        color: #8800ff; }\n      .spaceport-item.is-active .spaceport-item__departure {\n        color: rgba(48, 43, 51, 0.3); }\n    .spaceport-item:not(.active):hover {\n      border: 4px solid #8800ff; }\n      .spaceport-item:not(.active):hover .icon-star {\n        color: #fff; }\n\n.icon-star {\n  position: relative;\n  display: block;\n  margin-bottom: 28px;\n  text-align: center;\n  font-size: 22px;\n  color: #8800ff; }\n\n@media screen and (max-width: 420px) {\n  .spaceport {\n    padding: 28px 0; }\n    .spaceport__title {\n      font-size: 14px; }\n    .spaceport-list {\n      display: block;\n      overflow-x: auto;\n      overflow-y: hidden;\n      white-space: nowrap;\n      width: 100%; }\n    .spaceport-item {\n      display: inline-block;\n      margin: 0 12px;\n      padding: 32px;\n      width: 224px;\n      height: 232px;\n      float: none;\n      background: #fff;\n      border: 0;\n      border-radius: 5px;\n      box-shadow: 0 8px 34px black;\n      vertical-align: middle;\n      white-space: normal; }\n      .spaceport-item:not(.active):hover {\n        border: 0; }\n        .spaceport-item:not(.active):hover .icon-star {\n          color: #8800ff; }\n      .spaceport-item.is-active {\n        border: 0; }\n      .spaceport-item__title {\n        font: 14px 'Montserrat-Bold';\n        line-height: 1.14;\n        letter-spacing: 2px;\n        text-align: center;\n        color: #302b33; }\n      .spaceport-item__departure {\n        color: rgba(48, 43, 51, 0.3); }\n      .spaceport-item__date {\n        margin: 0 0 8px 0;\n        font-size: 14px;\n        line-height: 1.14;\n        letter-spacing: 1px; }\n      .spaceport-item__info {\n        margin-bottom: 35px;\n        color: #8800ff; }\n    .spaceport .icon-star {\n      margin-bottom: 13px; } }\n", ""]);
+	exports.push([module.id, ".spaceport {\n  padding: 80px;\n  background-color: #2d2b2e; }\n  .spaceport__title {\n    margin: 80px 0 40px 0;\n    font: 24px 'Montserrat-Bold';\n    text-align: center;\n    text-transform: uppercase;\n    letter-spacing: 5px;\n    color: #fff; }\n  .spaceport-list {\n    display: flex;\n    justify-content: space-around;\n    list-style: none; }\n  .spaceport-item {\n    position: relative;\n    padding: 30px;\n    width: 312px;\n    height: 328px;\n    border: 4px solid #000;\n    cursor: pointer; }\n    .spaceport-item__title, .spaceport-item__date {\n      margin: 0 0 13px 0;\n      font: 24px 'Montserrat-Bold';\n      text-align: center;\n      text-transform: uppercase;\n      letter-spacing: 5px;\n      color: #fff; }\n    .spaceport-item__departure {\n      margin-bottom: 55px;\n      font-size: 12px;\n      text-align: center;\n      text-transform: capitalize;\n      color: rgba(255, 255, 255, 0.3); }\n    .spaceport-item-fly-info {\n      position: absolute;\n      left: 0;\n      right: 0;\n      bottom: 0; }\n    .spaceport-item__info {\n      margin-bottom: 44px;\n      font-size: 12px;\n      text-align: center;\n      text-transform: capitalize;\n      color: rgba(255, 255, 255, 0.3); }\n    .spaceport-item.is-active {\n      background: #fff;\n      border: 4px solid transparent;\n      border-radius: 5px;\n      box-shadow: 0 8px 34px black; }\n      .spaceport-item.is-active .spaceport-item__title,\n      .spaceport-item.is-active .spaceport-item__date {\n        color: #302b33; }\n      .spaceport-item.is-active .spaceport-item__info {\n        color: #8800ff; }\n      .spaceport-item.is-active .spaceport-item__departure {\n        color: rgba(48, 43, 51, 0.3); }\n    .spaceport-item:not(.active):hover {\n      border: 4px solid #8800ff; }\n      .spaceport-item:not(.active):hover .icon-star {\n        color: #fff; }\n\n.icon-star {\n  position: relative;\n  display: block;\n  margin-bottom: 28px;\n  text-align: center;\n  font-size: 22px;\n  color: #8800ff; }\n\n@media screen and (max-width: 768px) {\n  .spaceport {\n    padding: 28px 0; }\n    .spaceport__title {\n      font-size: 14px; }\n    .spaceport-list {\n      display: block;\n      overflow-x: auto;\n      overflow-y: hidden;\n      white-space: nowrap;\n      width: 100%; }\n    .spaceport-item {\n      display: inline-block;\n      margin: 0 12px;\n      padding: 32px;\n      width: 224px;\n      height: 232px;\n      float: none;\n      background: #fff;\n      border: 0;\n      border-radius: 5px;\n      box-shadow: 0 8px 34px black;\n      vertical-align: middle;\n      white-space: normal; }\n      .spaceport-item:not(.active):hover {\n        border: 0; }\n        .spaceport-item:not(.active):hover .icon-star {\n          color: #8800ff; }\n      .spaceport-item.is-active {\n        border: 0; }\n      .spaceport-item__title {\n        font: 14px 'Montserrat-Bold';\n        line-height: 1.14;\n        letter-spacing: 2px;\n        text-align: center;\n        color: #302b33; }\n      .spaceport-item__departure {\n        color: rgba(48, 43, 51, 0.3); }\n      .spaceport-item__date {\n        margin: 0 0 8px 0;\n        font-size: 14px;\n        line-height: 1.14;\n        letter-spacing: 1px; }\n      .spaceport-item__info {\n        margin-bottom: 35px;\n        color: #8800ff; }\n    .spaceport .icon-star {\n      margin-bottom: 13px; } }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 114 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -51810,7 +51841,7 @@
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(7);
-	__webpack_require__(115);
+	__webpack_require__(117);
 	var SeatComponent = (function () {
 	    function SeatComponent() {
 	    }
@@ -51828,13 +51859,13 @@
 
 
 /***/ },
-/* 115 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(116);
+	var content = __webpack_require__(118);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {"sourceMap":true});
@@ -51854,7 +51885,7 @@
 	}
 
 /***/ },
-/* 116 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(35)();
@@ -51862,49 +51893,49 @@
 	
 	
 	// module
-	exports.push([module.id, ".seat {\n  padding: 40px 0;\n  background-color: #2d2b2e; }\n  .seat__title {\n    font: 24px 'Montserrat-Bold';\n    letter-spacing: 5px;\n    text-align: center;\n    text-transform: uppercase;\n    color: #fff; }\n  .seat-wrapper:hover .shuttle-door-down {\n    transform: translate(0, 120px); }\n  .seat-wrapper:hover .shuttle-door-up {\n    transform: translate(0, -120px); }\n\n.shuttle {\n  position: relative;\n  overflow: hidden; }\n  .shuttle.is-desktop {\n    display: block; }\n  .shuttle.is-mobile {\n    display: none; }\n  .shuttle-cabin {\n    width: 30%;\n    height: 508px;\n    float: left;\n    background: url(" + __webpack_require__(117) + ") no-repeat right center; }\n  .shuttle-seat {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 30%;\n    height: 508px;\n    float: left; }\n    .shuttle-seat-block {\n      position: absolute;\n      border: 4px solid #3f3d40; }\n    .shuttle-seat__item {\n      display: inline-block;\n      padding: 5px 12px;\n      margin: 3% 6%;\n      border: 4px solid #000;\n      border-radius: 15px 5px 5px 15px;\n      font: 24px/1em 'Montserrat-Regular';\n      color: #fff;\n      cursor: pointer; }\n      .shuttle-seat__item.is-active {\n        border: 4px solid #fff;\n        background: #fff;\n        color: #000; }\n      .shuttle-seat__item:not(.active):hover {\n        border: 4px solid #8800ff; }\n  .shuttle-door-down {\n    width: 543px;\n    height: 108px;\n    background: url(" + __webpack_require__(118) + ") no-repeat;\n    transform: translateZ(0);\n    transition: 1s ease-in-out; }\n  .shuttle-door-up {\n    width: 543px;\n    height: 108px;\n    background: url(" + __webpack_require__(119) + ") no-repeat;\n    transform: translateZ(0);\n    transition: 1s ease-in-out; }\n\n@media screen and (max-width: 420px) {\n  .seat {\n    padding: 0; }\n    .seat__title {\n      font-size: 14px;\n      margin-bottom: 20px; }\n    .seat-wrapper:hover .shuttle-door-down {\n      transform: translate(75px, 0); }\n    .seat-wrapper:hover .shuttle-door-up {\n      transform: translate(-75px, 0); }\n    .seat .shuttle {\n      overflow: hidden; }\n      .seat .shuttle.is-desktop {\n        display: none; }\n      .seat .shuttle.is-mobile {\n        display: block; }\n      .seat .shuttle-cabin {\n        height: 132px;\n        width: 94px;\n        float: none;\n        margin: 0 auto;\n        background: url(" + __webpack_require__(120) + ") no-repeat; }\n      .seat .shuttle-seat {\n        flex-direction: row;\n        margin: auto;\n        float: none;\n        width: auto;\n        height: auto; }\n        .seat .shuttle-seat-block {\n          bottom: 132px;\n          width: 138px; }\n        .seat .shuttle-seat__list {\n          padding: 0; }\n        .seat .shuttle-seat__item {\n          display: inline-block;\n          padding: 3px 10px;\n          margin: 8px 12px;\n          border-radius: 5px 5px 15px 15px;\n          font: 14px/1.7em 'Montserrat-Regular'; }\n      .seat .shuttle-door-down {\n        width: 68px;\n        height: 342px;\n        background: url(" + __webpack_require__(121) + ") no-repeat; }\n      .seat .shuttle-door-up {\n        width: 68px;\n        height: 342px;\n        background: url(" + __webpack_require__(122) + ") no-repeat; } }\n", ""]);
+	exports.push([module.id, ".seat {\n  padding: 40px 0;\n  background-color: #2d2b2e; }\n  .seat__title {\n    font: 24px 'Montserrat-Bold';\n    letter-spacing: 5px;\n    text-align: center;\n    text-transform: uppercase;\n    color: #fff; }\n  .seat-wrapper:hover .shuttle-door-down {\n    transform: translate(0, 120px); }\n  .seat-wrapper:hover .shuttle-door-up {\n    transform: translate(0, -120px); }\n\n.shuttle {\n  position: relative;\n  overflow: hidden; }\n  .shuttle.is-desktop {\n    display: block; }\n  .shuttle.is-mobile {\n    display: none; }\n  .shuttle-cabin {\n    width: 30%;\n    height: 508px;\n    float: left;\n    background: url(" + __webpack_require__(119) + ") no-repeat right center; }\n  .shuttle-seat {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 30%;\n    height: 508px;\n    float: left; }\n    .shuttle-seat-block {\n      position: absolute;\n      border: 4px solid #3f3d40; }\n    .shuttle-seat__item {\n      display: inline-block;\n      padding: 5px 12px;\n      margin: 3% 6%;\n      border: 4px solid #000;\n      border-radius: 15px 5px 5px 15px;\n      font-size: 24px;\n      line-height: 1em;\n      color: #fff;\n      cursor: pointer; }\n      .shuttle-seat__item.is-active {\n        border: 4px solid #fff;\n        background: #fff;\n        color: #000; }\n      .shuttle-seat__item:not(.active):hover {\n        border: 4px solid #8800ff; }\n  .shuttle-door-down {\n    width: 543px;\n    height: 108px;\n    background: url(" + __webpack_require__(120) + ") no-repeat;\n    transform: translateZ(0);\n    transition: 1s ease-in-out; }\n  .shuttle-door-up {\n    width: 543px;\n    height: 108px;\n    background: url(" + __webpack_require__(121) + ") no-repeat;\n    transform: translateZ(0);\n    transition: 1s ease-in-out; }\n\n@media screen and (max-width: 768px) {\n  .seat {\n    padding: 0; }\n    .seat__title {\n      font-size: 14px;\n      margin-bottom: 20px; }\n    .seat-wrapper:hover .shuttle-door-down {\n      transform: translate(75px, 0); }\n    .seat-wrapper:hover .shuttle-door-up {\n      transform: translate(-75px, 0); }\n    .seat .shuttle {\n      overflow: hidden; }\n      .seat .shuttle.is-desktop {\n        display: none; }\n      .seat .shuttle.is-mobile {\n        display: block; }\n      .seat .shuttle-cabin {\n        height: 132px;\n        width: 94px;\n        float: none;\n        margin: 0 auto;\n        background: url(" + __webpack_require__(122) + ") no-repeat; }\n      .seat .shuttle-seat {\n        flex-direction: row;\n        margin: auto;\n        float: none;\n        width: auto;\n        height: auto; }\n        .seat .shuttle-seat-block {\n          bottom: 132px;\n          width: 138px; }\n        .seat .shuttle-seat__list {\n          padding: 0; }\n        .seat .shuttle-seat__item {\n          display: inline-block;\n          padding: 3px 10px;\n          margin: 8px 12px;\n          border-radius: 5px 5px 15px 15px;\n          font-size: 14px;\n          line-height: 1.7em; }\n      .seat .shuttle-door-down {\n        width: 68px;\n        height: 342px;\n        background: url(" + __webpack_require__(123) + ") no-repeat; }\n      .seat .shuttle-door-up {\n        width: 68px;\n        height: 342px;\n        background: url(" + __webpack_require__(124) + ") no-repeat; } }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 117 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/body.png";
 
 /***/ },
-/* 118 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/bottom.png";
 
 /***/ },
-/* 119 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/top.png";
 
 /***/ },
-/* 120 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/cabin_mob.png";
 
 /***/ },
-/* 121 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/right.png";
 
 /***/ },
-/* 122 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/left.png";
 
 /***/ },
-/* 123 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -51918,7 +51949,7 @@
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(7);
-	__webpack_require__(124);
+	__webpack_require__(126);
 	var SummaryComponent = (function () {
 	    function SummaryComponent() {
 	    }
@@ -51936,13 +51967,13 @@
 
 
 /***/ },
-/* 124 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(125);
+	var content = __webpack_require__(127);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {"sourceMap":true});
@@ -51962,7 +51993,7 @@
 	}
 
 /***/ },
-/* 125 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(35)();
@@ -51970,31 +52001,31 @@
 	
 	
 	// module
-	exports.push([module.id, ".summary {\n  padding: 95px 136px 130px;\n  background: url(" + __webpack_require__(126) + ") #000 no-repeat 0 0;\n  background-size: cover; }\n  .summary__title {\n    margin: 0 0 65px;\n    font: 24px 'Montserrat-Regular';\n    font-weight: bold;\n    letter-spacing: 5px;\n    text-align: center;\n    text-transform: uppercase;\n    color: #fff; }\n  .summary-wrapper {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-around;\n    margin-bottom: 96px; }\n    .summary-wrapper .users-info {\n      position: relative;\n      margin-bottom: 22px; }\n      .summary-wrapper .users-info__label {\n        font: 12px/2em 'Montserrat-Regular';\n        text-transform: uppercase;\n        color: rgba(255, 255, 255, 0.6); }\n      .summary-wrapper .users-info__input {\n        width: 100%;\n        border: none;\n        outline: none;\n        background: transparent;\n        font: 16px/2.5em 'Montserrat-Regular';\n        color: #fff; }\n        .summary-wrapper .users-info__input::-webkit-outer-spin-button, .summary-wrapper .users-info__input::-webkit-inner-spin-button {\n          -webkit-appearance: none;\n          margin: 0; }\n        .summary-wrapper .users-info__input:focus + .validation-marker {\n          border-bottom: 4px solid white; }\n        .summary-wrapper .users-info__input:invalid + .validation-marker:before {\n          content: 'Incorrect last name';\n          position: absolute;\n          top: -65px;\n          right: 0;\n          font: 12px/1em 'Montserrat-Regular';\n          color: #e15968; }\n        .summary-wrapper .users-info__input:invalid + .validation-marker .icon-check {\n          display: none; }\n        .summary-wrapper .users-info__input:invalid + .validation-marker .icon-close {\n          position: absolute;\n          top: -25px;\n          right: 0;\n          color: #e15968; }\n        .summary-wrapper .users-info__input:valid + .validation-marker:before,\n        .summary-wrapper .users-info__input:valid + .validation-marker .icon-close {\n          display: none; }\n        .summary-wrapper .users-info__input:valid + .validation-marker .icon-check {\n          position: absolute;\n          top: -25px;\n          right: 0;\n          color: #fff; }\n        .summary-wrapper .users-info__input.ng-untouched + .validation-marker:before,\n        .summary-wrapper .users-info__input.ng-untouched + .validation-marker .icon-close,\n        .summary-wrapper .users-info__input.ng-untouched + .validation-marker .icon-check {\n          display: none; }\n      .summary-wrapper .users-info .validation-marker {\n        position: relative;\n        border-bottom: 4px solid rgba(255, 255, 255, 0.3); }\n    .summary-wrapper .users-summary {\n      width: 416px;\n      height: 368px; }\n    .summary-wrapper .users-ticket {\n      padding: 30px;\n      width: 520px;\n      height: 368px;\n      border-radius: 5px;\n      background: #fff; }\n      .summary-wrapper .users-ticket .ticket-header {\n        display: flex;\n        justify-content: space-between;\n        padding-bottom: 24px;\n        border-bottom: 4px solid rgba(0, 0, 0, 0.1); }\n        .summary-wrapper .users-ticket .ticket-header .logo {\n          position: relative;\n          top: 0;\n          left: 0;\n          width: 210px;\n          height: 24px;\n          background: url(" + __webpack_require__(127) + ") no-repeat center center;\n          background-size: contain; }\n        .summary-wrapper .users-ticket .ticket-header .ticket {\n          font: 24px 'Montserrat-Regular';\n          color: #8800ff;\n          text-transform: uppercase; }\n      .summary-wrapper .users-ticket .tour-info {\n        padding-bottom: 24px;\n        margin-bottom: 30px;\n        overflow: hidden;\n        border-bottom: 4px solid rgba(0, 0, 0, 0.1); }\n        .summary-wrapper .users-ticket .tour-info .planet {\n          margin: 23px 0 0;\n          font: 24px/1em 'Montserrat-Regular';\n          text-transform: uppercase; }\n        .summary-wrapper .users-ticket .tour-info .cosmodrom {\n          font: 16px/1.5em 'Montserrat-Regular';\n          float: left; }\n        .summary-wrapper .users-ticket .tour-info .fly-date {\n          font: 16px/1.5em 'Montserrat-Regular';\n          text-align: right;\n          color: rgba(0, 0, 0, 0.3); }\n      .summary-wrapper .users-ticket .seat-number,\n      .summary-wrapper .users-ticket .name-info .last-name-info {\n        font: 16px/1.5em 'Montserrat-Regular';\n        color: #000; }\n      .summary-wrapper .users-ticket .name-info {\n        word-wrap: break-word; }\n      .summary-wrapper .users-ticket .email-info,\n      .summary-wrapper .users-ticket .phone-info {\n        font: 16px/1.5em 'Montserrat-Regular';\n        color: rgba(0, 0, 0, 0.3);\n        word-wrap: break-word; }\n\n.continue__button {\n  display: block;\n  margin: 0 auto;\n  width: 285px;\n  height: 72px;\n  border: none;\n  outline: none;\n  background-color: #8800ff;\n  font: 24px/1em 'Montserrat-Regular';\n  color: #fff; }\n  .continue__button:active {\n    background: #fff;\n    color: #333; }\n\n@media screen and (max-width: 420px) {\n  .summary {\n    padding: 28px;\n    background: url(" + __webpack_require__(128) + ") #000 no-repeat 0 0; }\n    .summary__title {\n      font-size: 14px;\n      margin: 0 0 25px; }\n    .summary-wrapper {\n      flex-direction: column;\n      margin-bottom: 24px; }\n      .summary-wrapper .users-ticket {\n        width: auto;\n        height: auto; }\n        .summary-wrapper .users-ticket .tour-info .fly-date {\n          text-align: left; }\n      .summary-wrapper .users-summary {\n        width: auto;\n        height: auto; }\n      .summary-wrapper .ticket-header {\n        flex-direction: column; }\n        .summary-wrapper .ticket-header .logo {\n          margin-bottom: 19px; }\n    .summary .continue__button {\n      width: 100%;\n      height: 72px; } }\n", ""]);
+	exports.push([module.id, ".summary {\n  padding: 95px 136px 130px;\n  background: url(" + __webpack_require__(128) + ") #000 no-repeat 0 0;\n  background-size: cover; }\n  .summary__title {\n    margin: 0 0 65px;\n    font-size: 24px;\n    font-weight: bold;\n    letter-spacing: 5px;\n    text-align: center;\n    text-transform: uppercase;\n    color: #fff; }\n  .summary-wrapper {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-around;\n    margin-bottom: 96px; }\n    .summary-wrapper .users-info {\n      position: relative;\n      margin-bottom: 22px; }\n      .summary-wrapper .users-info__label {\n        font-size: 12px;\n        line-height: 2em;\n        text-transform: uppercase;\n        color: rgba(255, 255, 255, 0.6); }\n      .summary-wrapper .users-info__input {\n        width: 100%;\n        border: none;\n        outline: none;\n        background: transparent;\n        font-size: 16px;\n        line-height: 2.5em;\n        color: #fff; }\n        .summary-wrapper .users-info__input::-webkit-outer-spin-button, .summary-wrapper .users-info__input::-webkit-inner-spin-button {\n          -webkit-appearance: none;\n          margin: 0; }\n        .summary-wrapper .users-info__input:focus + .validation-marker {\n          border-bottom: 4px solid white; }\n        .summary-wrapper .users-info__input:invalid + .validation-marker:before {\n          content: 'Incorrect last name';\n          position: absolute;\n          top: -65px;\n          right: 0;\n          font-size: 12px;\n          color: #e15968; }\n        .summary-wrapper .users-info__input:invalid + .validation-marker .icon-check {\n          display: none; }\n        .summary-wrapper .users-info__input:invalid + .validation-marker .icon-close {\n          position: absolute;\n          top: -25px;\n          right: 0;\n          color: #e15968; }\n        .summary-wrapper .users-info__input:valid + .validation-marker:before,\n        .summary-wrapper .users-info__input:valid + .validation-marker .icon-close {\n          display: none; }\n        .summary-wrapper .users-info__input:valid + .validation-marker .icon-check {\n          position: absolute;\n          top: -25px;\n          right: 0;\n          color: #fff; }\n        .summary-wrapper .users-info__input.ng-untouched + .validation-marker:before,\n        .summary-wrapper .users-info__input.ng-untouched + .validation-marker .icon-close,\n        .summary-wrapper .users-info__input.ng-untouched + .validation-marker .icon-check {\n          display: none; }\n      .summary-wrapper .users-info .validation-marker {\n        position: relative;\n        border-bottom: 4px solid rgba(255, 255, 255, 0.3); }\n    .summary-wrapper .users-summary {\n      width: 416px;\n      height: 368px; }\n    .summary-wrapper .users-ticket {\n      padding: 30px;\n      width: 520px;\n      height: 368px;\n      border-radius: 5px;\n      background: #fff; }\n      .summary-wrapper .users-ticket .ticket-header {\n        display: flex;\n        justify-content: space-between;\n        padding-bottom: 24px;\n        border-bottom: 4px solid rgba(0, 0, 0, 0.1); }\n        .summary-wrapper .users-ticket .ticket-header .logo {\n          position: relative;\n          top: 0;\n          left: 0;\n          width: 210px;\n          height: 24px;\n          background: url(" + __webpack_require__(129) + ") no-repeat center center;\n          background-size: contain; }\n        .summary-wrapper .users-ticket .ticket-header .ticket {\n          font-size: 24px;\n          color: #8800ff;\n          text-transform: uppercase; }\n      .summary-wrapper .users-ticket .tour-info {\n        padding-bottom: 24px;\n        margin-bottom: 30px;\n        overflow: hidden;\n        border-bottom: 4px solid rgba(0, 0, 0, 0.1); }\n        .summary-wrapper .users-ticket .tour-info .planet {\n          margin: 23px 0 0;\n          font-size: 24px;\n          text-transform: uppercase; }\n        .summary-wrapper .users-ticket .tour-info .cosmodrom {\n          font-size: 16px;\n          line-height: 1.5em;\n          float: left; }\n        .summary-wrapper .users-ticket .tour-info .fly-date {\n          font-size: 16px;\n          line-height: 1.5em;\n          text-align: right;\n          color: rgba(0, 0, 0, 0.3); }\n      .summary-wrapper .users-ticket .seat-number,\n      .summary-wrapper .users-ticket .name-info .last-name-info {\n        font-size: 16px;\n        line-height: 1.5em;\n        color: #000; }\n      .summary-wrapper .users-ticket .name-info {\n        word-wrap: break-word; }\n      .summary-wrapper .users-ticket .email-info,\n      .summary-wrapper .users-ticket .phone-info {\n        font-size: 16px;\n        line-height: 1.5em;\n        color: rgba(0, 0, 0, 0.3);\n        word-wrap: break-word; }\n\n.continue__button {\n  display: block;\n  margin: 0 auto;\n  width: 285px;\n  height: 72px;\n  border: none;\n  outline: none;\n  background-color: #8800ff;\n  font-size: 24px;\n  color: #fff; }\n  .continue__button:active {\n    background: #fff;\n    color: #333; }\n\n@media screen and (max-width: 768px) {\n  .summary {\n    padding: 28px;\n    background: url(" + __webpack_require__(130) + ") #000 no-repeat 0 0; }\n    .summary__title {\n      font-size: 14px;\n      margin: 0 0 25px; }\n    .summary-wrapper {\n      flex-direction: column;\n      margin-bottom: 24px; }\n      .summary-wrapper .users-ticket {\n        width: auto;\n        height: auto; }\n        .summary-wrapper .users-ticket .tour-info .fly-date {\n          text-align: left; }\n        .summary-wrapper .users-ticket .tour-info .cosmodrom {\n          float: none; }\n      .summary-wrapper .users-summary {\n        width: auto;\n        height: auto; }\n      .summary-wrapper .ticket-header {\n        flex-direction: column; }\n        .summary-wrapper .ticket-header .logo {\n          margin-bottom: 19px; }\n    .summary .continue__button {\n      width: 100%;\n      height: 72px; } }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 126 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/bg-image2.png";
 
 /***/ },
-/* 127 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/logo-ticket.png";
 
 /***/ },
-/* 128 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "/assets/bg-image_mob_summary.png";
 
 /***/ },
-/* 129 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -52008,7 +52039,7 @@
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(7);
-	__webpack_require__(130);
+	__webpack_require__(132);
 	var FooterComponent = (function () {
 	    function FooterComponent() {
 	    }
@@ -52026,13 +52057,13 @@
 
 
 /***/ },
-/* 130 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(131);
+	var content = __webpack_require__(133);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(45)(content, {"sourceMap":true});
@@ -52052,7 +52083,7 @@
 	}
 
 /***/ },
-/* 131 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(35)();
@@ -52060,13 +52091,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".footer {\n  display: block;\n  width: 100%;\n  height: 60px;\n  background-color: #000; }\n  .footer span {\n    text-align: center;\n    font: 12px/5em 'Montserrat-Regular';\n    color: rgba(255, 255, 255, 0.6);\n    display: inherit;\n    text-transform: uppercase; }\n", ""]);
+	exports.push([module.id, ".footer {\n  display: block;\n  width: 100%;\n  height: 60px;\n  background-color: #000; }\n  .footer span {\n    text-align: center;\n    font-size: 12px;\n    line-height: 5em;\n    color: rgba(255, 255, 255, 0.6);\n    display: inherit;\n    text-transform: uppercase; }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 132 */
+/* 134 */
 /***/ function(module, exports) {
 
 	"use strict";
